@@ -74,6 +74,12 @@ p {
   }
 }
 
+.spacer { 
+  margin:0;
+  padding:0;
+  height:50px;
+}
+
 .page {
   min-height: 110vh;
   margin-top: 2vh;
@@ -81,7 +87,7 @@ p {
 }
 
 .quote {
-  font-family: 'Comfortaa', serif;
+  font-family: 'Ruthie', cursive;
   font-weight: 400;
   font-size: 4vh;
   text-align: center;
@@ -162,7 +168,6 @@ p {
 
 #intro {
   background: #2b292e;
-  background: url(../img/logo_transparent.png) 50% 60px fixed no-repeat;
   background-size: auto 33%;
   min-height: 100%;
   min-height: 100vh;
@@ -174,9 +179,9 @@ p {
   /*padding: 100px 0;*/
 }
 
-#intro-architectuur {
+#intro-index {
   background: #2b292e;
-  background: url(../img/dark_embroidery.png);
+  /*background: url(../img/dark_embroidery.png);*/
   color: whitesmoke;
   min-height: 100%;
   min-height: 100vh;
@@ -189,7 +194,7 @@ p {
 }
 
 .photo {
-  background: url(../img/foto_edited.jpg) fixed;
+  background: white;/*url(../img/foto_edited.jpg) fixed;*/
   background-size: auto 100%;
   min-height: 100%;
   /*height: auto;  */
